@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1675</width>
+    <height>931</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-color:  rgb(0, 0, 0);</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Music Equalizer</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayoutsig1">
+            <item>
+             <layout class="QGridLayout" name="gridLayoutsig1">
+              <item row="2" column="0">
+               <layout class="QHBoxLayout" name="horizontalLayout_4">
+                <item>
+                 <layout class="QVBoxLayout" name="BellLayout">
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="BellSliderMaximum">
+                    <property name="text">
+                     <string>10</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QSlider" name="BellSlider">
+                    <property name="maximum">
+                     <number>10</number>
+                    </property>
+                    <property name="pageStep">
+                     <number>1</number>
+                    </property>
+                    <property name="value">
+                     <number>1</number>
+                    </property>
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="BellSliderMinimum">
+                    <property name="text">
+                     <string>0</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="BellLabel">
+                    <property name="text">
+                     <string>Bell</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="BellImage">
+                    <property name="maximumSize">
+                     <size>
+                      <width>70</width>
+                      <height>70</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-image: url(:/icons/bell.jpg);</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="pixmap">
+                     <pixmap>:/icons/bell.jpg</pixmap>
+                    </property>
+                    <property name="scaledContents">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="DoubleBassLayout">
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="DoubleBassSliderMaximum">
+                    <property name="text">
+                     <string>10</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QSlider" name="DoubleBassSlider">
+                    <property name="maximum">
+                     <number>10</number>
+                    </property>
+                    <property name="pageStep">
+                     <number>1</number>
+                    </property>
+                    <property name="value">
+                     <number>1</number>
+                    </property>
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="DoubleBassSliderMinimum">
+                    <property name="text">
+                     <string>0</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="DoubleBassLabel">
+                    <property name="text">
+                     <string>Double Bass</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="DoubleBassImage">
+                    <property name="maximumSize">
+                     <size>
+                      <width>70</width>
+                      <height>70</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-image: url(:/icons/double_bass.jpg);</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="pixmap">
+                     <pixmap>:/icons/double_bass.jpg</pixmap>
+                    </property>
+                    <property name="scaledContents">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="AltoSaxophoneLayout">
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="AltoSaxophoneSliderMaximum">
+                    <property name="text">
+                     <string>10</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QSlider" name="AltoSaxophoneSlider">
+                    <property name="maximum">
+                     <number>10</number>
+                    </property>
+                    <property name="pageStep">
+                     <number>1</number>
+                    </property>
+                    <property name="value">
+                     <number>1</number>
+                    </property>
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="AltoSaxophoneSliderMinimum">
+                    <property name="text">
+                     <string>0</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="AltoSaxophoneLabel">
+                    <property name="text">
+                     <string>Alto Saxophone</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="AltoSaxophoneImage">
+                    <property name="maximumSize">
+                     <size>
+                      <width>70</width>
+                      <height>70</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="pixmap">
+                     <pixmap>:/icons/alto_sax.jpg</pixmap>
+                    </property>
+                    <property name="scaledContents">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+              <item row="1" column="0">
+               <layout class="QHBoxLayout" name="horizontalLayoutspeed">
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_2">
+                  <item>
+                   <widget class="QPushButton" name="playpauseButton">
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normaloff>images/playF.png</normaloff>images/playF.png</iconset>
+                    </property>
+                    <property name="flat">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="QLabel" name="VolumeLabel">
+                  <property name="font">
+                   <font>
+                    <family>Comic Sans MS</family>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Volume</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="VolumeSlider">
+                  <property name="maximum">
+                   <number>100</number>
+                  </property>
+                  <property name="singleStep">
+                   <number>1</number>
+                  </property>
+                  <property name="pageStep">
+                   <number>1</number>
+                  </property>
+                  <property name="value">
+                   <number>100</number>
+                  </property>
+                  <property name="sliderPosition">
+                   <number>100</number>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout">
+                  <item>
+                   <spacer name="horizontalSpacer">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="SpectrogramColorPalleteLabel">
+                    <property name="font">
+                     <font>
+                      <family>Comic Sans MS</family>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Choose color pallete for the Spectrogram</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QComboBox" name="SpectrogramColorPalleteComboBox">
+                    <property name="minimumSize">
+                     <size>
+                      <width>66</width>
+                      <height>22</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Comic Sans MS</family>
+                     </font>
+                    </property>
+                    <item>
+                     <property name="text">
+                      <string>viridis</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>plasma</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>cividis</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>magma</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>inferno</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Blues</string>
+                     </property>
+                    </item>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+              <item row="0" column="0">
+               <widget class="PlotWidget" name="SignalGraph"/>
+              </item>
+              <item row="0" column="1">
+               <layout class="QGridLayout" name="SpectrogramGraph"/>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Musical Instruments</string>
+       </attribute>
+       <widget class="QWidget" name="pianoWidget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>350</y>
+          <width>701</width>
+          <height>431</height>
+         </rect>
+        </property>
+        <widget class="QPushButton" name="whiteKey11">
+         <property name="geometry">
+          <rect>
+           <x>450</x>
+           <y>160</y>
+           <width>31</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="blackKey6">
+         <property name="geometry">
+          <rect>
+           <x>310</x>
+           <y>160</y>
+           <width>16</width>
+           <height>65</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="blackKey5">
+         <property name="geometry">
+          <rect>
+           <x>272</x>
+           <y>160</y>
+           <width>16</width>
+           <height>65</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="blackKey8">
+         <property name="geometry">
+          <rect>
+           <x>374</x>
+           <y>160</y>
+           <width>16</width>
+           <height>65</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="whiteKey4">
+         <property name="geometry">
+          <rect>
+           <x>212</x>
+           <y>160</y>
+           <width>37</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="whiteKey5">
+         <property name="geometry">
+          <rect>
+           <x>248</x>
+           <y>160</y>
+           <width>33</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="blackKey4">
+         <property name="geometry">
+          <rect>
+           <x>242</x>
+           <y>160</y>
+           <width>16</width>
+           <height>65</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="whiteKey3">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>160</y>
+           <width>33</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="whiteKey6">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>160</y>
+           <width>38</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="blackKey7">
+         <property name="geometry">
+          <rect>
+           <x>342</x>
+           <y>160</y>
+           <width>16</width>
+           <height>65</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="whiteKey8">
+         <property name="geometry">
+          <rect>
+           <x>349</x>
+           <y>160</y>
+           <width>33</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="blackKey10">
+         <property name="geometry">
+          <rect>
+           <x>443</x>
+           <y>160</y>
+           <width>16</width>
+           <height>65</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="whiteKey7">
+         <property name="geometry">
+          <rect>
+           <x>317</x>
+           <y>160</y>
+           <width>33</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="whiteKey9">
+         <property name="geometry">
+          <rect>
+           <x>381</x>
+           <y>160</y>
+           <width>36</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="blackKey9">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>160</y>
+           <width>16</width>
+           <height>65</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="whiteKey10">
+         <property name="geometry">
+          <rect>
+           <x>416</x>
+           <y>160</y>
+           <width>35</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="blackKey3">
+         <property name="geometry">
+          <rect>
+           <x>204</x>
+           <y>160</y>
+           <width>16</width>
+           <height>65</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="pianoImgLabel">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>-60</y>
+           <width>621</width>
+           <height>531</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../piano-removebg-preview.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="whiteKey2">
+         <property name="geometry">
+          <rect>
+           <x>151</x>
+           <y>160</y>
+           <width>30</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="whiteKey1">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>160</y>
+           <width>31</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="blackKey2">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>160</y>
+           <width>16</width>
+           <height>65</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="blackKey1">
+         <property name="geometry">
+          <rect>
+           <x>143</x>
+           <y>160</y>
+           <width>16</width>
+           <height>65</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="whiteKey12">
+         <property name="geometry">
+          <rect>
+           <x>480</x>
+           <y>160</y>
+           <width>30</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="whiteKey13">
+         <property name="geometry">
+          <rect>
+           <x>510</x>
+           <y>160</y>
+           <width>31</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="blackKey11">
+         <property name="geometry">
+          <rect>
+           <x>470</x>
+           <y>160</y>
+           <width>16</width>
+           <height>65</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="blackKey12">
+         <property name="geometry">
+          <rect>
+           <x>502</x>
+           <y>160</y>
+           <width>16</width>
+           <height>65</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <zorder>pianoImgLabel</zorder>
+        <zorder>whiteKey10</zorder>
+        <zorder>whiteKey5</zorder>
+        <zorder>whiteKey6</zorder>
+        <zorder>whiteKey7</zorder>
+        <zorder>whiteKey8</zorder>
+        <zorder>whiteKey9</zorder>
+        <zorder>whiteKey11</zorder>
+        <zorder>blackKey6</zorder>
+        <zorder>blackKey5</zorder>
+        <zorder>blackKey8</zorder>
+        <zorder>whiteKey4</zorder>
+        <zorder>blackKey4</zorder>
+        <zorder>whiteKey3</zorder>
+        <zorder>blackKey7</zorder>
+        <zorder>blackKey10</zorder>
+        <zorder>blackKey9</zorder>
+        <zorder>blackKey3</zorder>
+        <zorder>whiteKey2</zorder>
+        <zorder>whiteKey1</zorder>
+        <zorder>blackKey2</zorder>
+        <zorder>blackKey1</zorder>
+        <zorder>whiteKey12</zorder>
+        <zorder>whiteKey13</zorder>
+        <zorder>blackKey11</zorder>
+        <zorder>blackKey12</zorder>
+       </widget>
+       <widget class="QLabel" name="bgtab2lmg">
+        <property name="geometry">
+         <rect>
+          <x>-160</x>
+          <y>0</y>
+          <width>2000</width>
+          <height>1441</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>images/blackst.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QWidget" name="InstButtonwidget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>130</y>
+          <width>521</width>
+          <height>80</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="layoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>0</y>
+           <width>511</width>
+           <height>91</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QPushButton" name="startPianoButton">
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>images/pianoIcon.png</normaloff>images/pianoIcon.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>70</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="startDrumsButton">
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>images/drumsIcon.png</normaloff>images/drumsIcon.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>70</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="startGuitarButton">
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>images/guitarIcon.png</normaloff>images/guitarIcon.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>70</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="drumsWidget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>650</x>
+          <y>400</y>
+          <width>441</width>
+          <height>321</height>
+         </rect>
+        </property>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>261</width>
+           <height>241</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>images/drums.png</pixmap>
+         </property>
+        </widget>
+        <widget class="QSlider" name="drumsSlider">
+         <property name="geometry">
+          <rect>
+           <x>310</x>
+           <y>49</y>
+           <width>20</width>
+           <height>191</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="mouseTracking">
+          <bool>true</bool>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::TabFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="minimum">
+          <number>0</number>
+         </property>
+         <property name="maximum">
+          <number>10</number>
+         </property>
+         <property name="singleStep">
+          <number>1</number>
+         </property>
+         <property name="pageStep">
+          <number>10</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="invertedAppearance">
+          <bool>false</bool>
+         </property>
+         <property name="invertedControls">
+          <bool>false</bool>
+         </property>
+         <property name="tickPosition">
+          <enum>QSlider::TicksBelow</enum>
+         </property>
+         <property name="tickInterval">
+          <number>0</number>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="drumsButton">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="geometry">
+          <rect>
+           <x>25</x>
+           <y>69</y>
+           <width>195</width>
+           <height>75</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>OpenHandCursor</cursorShape>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:90px;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="autoDefault">
+          <bool>true</bool>
+         </property>
+         <property name="default">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <zorder>label</zorder>
+        <zorder>drumsButton</zorder>
+        <zorder>drumsSlider</zorder>
+       </widget>
+       <widget class="QWidget" name="guitarWidget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>350</y>
+          <width>1141</width>
+          <height>301</height>
+         </rect>
+        </property>
+        <widget class="QLabel" name="guitarLabel">
+         <property name="geometry">
+          <rect>
+           <x>-40</x>
+           <y>20</y>
+           <width>831</width>
+           <height>291</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>images/Untitledggggggg-removebg-preview.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="guitarString1">
+         <property name="geometry">
+          <rect>
+           <x>165</x>
+           <y>160</y>
+           <width>477</width>
+           <height>3</height>
+          </rect>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(226, 226, 226);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="default">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="guitarString2">
+         <property name="geometry">
+          <rect>
+           <x>165</x>
+           <y>165</y>
+           <width>477</width>
+           <height>3</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(226, 226, 226);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="guitarString4">
+         <property name="geometry">
+          <rect>
+           <x>165</x>
+           <y>176</y>
+           <width>477</width>
+           <height>3</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(226, 226, 226);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="guitarString3">
+         <property name="geometry">
+          <rect>
+           <x>165</x>
+           <y>171</y>
+           <width>477</width>
+           <height>3</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(226, 226, 226);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="guitarString5">
+         <property name="geometry">
+          <rect>
+           <x>165</x>
+           <y>182</y>
+           <width>477</width>
+           <height>3</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(226, 226, 226);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="guitarString6">
+         <property name="geometry">
+          <rect>
+           <x>165</x>
+           <y>187</y>
+           <width>477</width>
+           <height>3</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(226, 226, 226);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </widget>
+       <zorder>bgtab2lmg</zorder>
+       <zorder>pianoWidget</zorder>
+       <zorder>InstButtonwidget</zorder>
+       <zorder>drumsWidget</zorder>
+       <zorder>guitarWidget</zorder>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1675</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="Open"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="Open">
+   <property name="text">
+    <string>Open</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+    </font>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PlotWidget</class>
+   <extends>QGraphicsView</extends>
+   <header>pyqtgraph</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="images/imgs.qrc"/>
+ </resources>
+ <connections/>
+</ui>
